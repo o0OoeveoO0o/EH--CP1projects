@@ -8,6 +8,6 @@ name = input("What is your name: ")
 
 print("Welcome to class " + name)
 
-print("what did you did tis weekend: ")
+print("what did you did this weekend: ")
 weekend= input()
 print("that is super cool I wish I" + weekend + " this weekend.")
