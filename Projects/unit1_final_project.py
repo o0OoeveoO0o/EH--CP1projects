@@ -12,3 +12,4 @@ hobby = input ("What is your hobby? ")
 
 #what is being printed from all the questions
 print("Hello my name is " + name + " I am " + age + " I am a/an " + job + " and I like to " + activities +  " in my free time, my favorite food is " +  food + " , I live in " + place + " I really like " + animals + " and my hobby is " + hobby)
+#the end
