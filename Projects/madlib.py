@@ -19,6 +19,8 @@ randomword= input("select any type of thing: ")
 place= input("Select a place: ")
 #asks for a place
 livingthing = input("Select anything that is alive: ")
+#asks for a living organism
+verb5 = input("Select any type of verb-ing: ")
 
-print("This happened in " + place + ". " + niknam + " who was a " + animal_rawr + " was " + verBo + ", but then " + charac + " who was a " + iloveanimals + " appeared and " + verb + " our " + animal_rawr+ ". Then our " + animal_rawr + " tried to " + verb2 + " but then a " + randomword + " carbonizated everything in " + place + ". At the end the only one that survived was a " + livingthing + ". That\'s why it\'s important to solve our problems by talking. \"That\'s all folks\"")
+print("This happened in " + place + ". " + niknam + " who was a " + animal_rawr + " was " + verBo + ", but then " + charac + " who was a " + iloveanimals + " appeared and " + verb + " our " + animal_rawr+ ". \nThen our " + animal_rawr + " tried to " + verb2 + " but then a " + randomword + " carbonizated everything in " + place + ". \nAt the end the only one that survived was a " + livingthing + ". \nThat\'s why it\'s important to solve our problems by talking and not " + verb5 +" with each others \n. \"That\'s all folks\"")
 
