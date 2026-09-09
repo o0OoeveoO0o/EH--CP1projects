@@ -11,9 +11,16 @@ full_nam = fixed.title() + " " +last_fixed.title()
 #connects everything
 print("Your name is: " + full_nam)
 
-while : True
-    try:
-        phone_num = input("What is your phone number?  ")
-        if isalpha = phone_num
 
+
+while True :
+    try :
+        phone_N = input("that\'s not a number please insert a real one: "). strip()
+        if len(phone_N) !=10 or not phone_N.isdigit():
+           raise ValueError
+      
+        return phone_N
+      
+    except ValueError:
+        print("Your phone number is " + phone_N)
 
