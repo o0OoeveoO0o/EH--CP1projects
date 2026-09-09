@@ -12,15 +12,33 @@ full_nam = fixed.title() + " " +last_fixed.title()
 print("Your name is: " + full_nam)
 
 
-
 while True :
+    phone_N = input("What is your phone number? "). strip()
     try :
-        phone_N = input("that\'s not a number please insert a real one: "). strip()
+
         if len(phone_N) !=10 or not phone_N.isdigit():
            raise ValueError
-      
-        return phone_N
-      
+        
     except ValueError:
-        print("Your phone number is " + phone_N)
+        print("That's not a valid phone number")
 
+    else:
+        break
+
+
+
+print("Your number is " + phone_N[:3]  + " " + phone_N[3:6] + " " + phone_N[6:])
+
+
+while True :
+ try :
+     gpa = float(input("What is your gpa? "))
+ except ValueError:
+     print("That's not a valid gpa")
+
+ else:
+     break
+ 
+
+print("Your gpa is " , round(gpa,1))
+#finished
