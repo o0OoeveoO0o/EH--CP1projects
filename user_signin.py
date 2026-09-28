@@ -4,6 +4,6 @@ usernm = input("What is the username: ")
 paswrd = input("What is your password: ")
 
 if usernm == "random_user" and paswrd == "randompassword1234":
-    print("Welcome to the program!")
+    print("Welcome back " + usernm + "!")
 else:
-    print("Your login credentials were invalid.")
+    print("You are not random_user or your password is wrong, please check again")
