@@ -1,4 +1,3 @@
-
 # EH Period 1 User Sign in
 
 usernm = input("What is the username: ")
