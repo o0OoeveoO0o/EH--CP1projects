@@ -1,0 +1,10 @@
+#Evans Hidalgo Period 1 Average grade
+grade = float (input("What is your grade in PE? "))
+num = float (input("What is your grade in engish? "))
+numbr = float(input ("What is your grade in programming? "))
+rannum = float(input ("What is your grade in biology? "))
+binum = float(input("What is your grade in art? "))
+fulnum = float(input ("What is your grade in astronomy? "))
+innum = float(input ("What is your grade in World civilizations? "))
+sumofgrades = round((grade + num + numbr + rannum + binum + fulnum + innum)/7, 2)
+print("Your average grade is " , sumofgrades)
