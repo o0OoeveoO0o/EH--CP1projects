@@ -1,7 +1,7 @@
 
 
 age = 17
-licese = false
+licese = False
 if age >= 18: #<-- all conditionals starts with an if
     print("You're an adult and can vote!")
 elif age >= 15 and licese:#<- in between
