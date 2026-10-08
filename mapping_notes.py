@@ -5,7 +5,7 @@ def times (number):
 
 numbers = range(1,6)
 
-multiply_members = map(times,numbers)# in map(times,numbers) times = function and  numbres = list
+multiply_members =map(times,numbers)# in map(times,numbers) times = function and  numbres = list
 print(list(multiply_members))
 new_numbers = []
 for number in numbers:
