@@ -1,4 +1,4 @@
-#VL While Loops
+#Eh While Loops
 
 import random
 import time
