@@ -21,8 +21,8 @@ max_attempts = 3
 escaped = False
 
 hints = [
-    "Hint 1: It has something to do with a cute animal and magical creatures...",
-    "Hint 2: Think of a feline that controls unicorns...",
+    "Hint 1: Imagine a feline animal riding a horse...",
+    "Hint 2: Think of a feline that controls a mystical animal...",
     "Hint 3: The password is 'Kitty tamer of unicorns'... wait, did I just say that?!"
 ]
 
