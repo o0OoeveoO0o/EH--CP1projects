@@ -23,7 +23,7 @@ escaped = False
 hints = [
     "Hint 1: Imagine a feline animal riding a horse...",
     "Hint 2: Think of a feline that controls a mystical animal...",
-    "Hint 3: The password is 'Kitty tamer of unicorns'... wait, did I just say that?!"
+    "Hint 3: The password was 'Kitty tamer of unicorns'!!!!"
 ]
 
 while attempts < max_attempts:
@@ -53,3 +53,5 @@ else:
     print("*The monster jumps on you*")
     print("You have been DEVOURED by the monster...")
     print("GAME OVER")
+
+#end gg,s
