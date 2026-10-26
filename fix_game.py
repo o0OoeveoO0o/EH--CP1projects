@@ -30,18 +30,18 @@ for round_num in range(1, rounds + 1):
     scores.append(guesses)
 
 print("\n--- Game Over ---")
-print("Your guesses per round: " , scores)#<--add , instead of +
+print("Your guesses per round: " + scores)
 
 total = 0
 for score in scores:
-    total = 0
+# total = 0  <- this line was resetting total every loop
     total = total + score
 
 average = total / rounds
-print("Your average guesses per round was " + str(average))
+print("Your guesses per round: " , scores)#<--add , instead of +
 
 best_round = scores[0]
-for i in range(1, rounds - 1):
+for i in range(1, rounds): #<- was range(1, rounds - 1), missed the last element
     if scores[i] < best_round:
         best_round = scores[i]
 
