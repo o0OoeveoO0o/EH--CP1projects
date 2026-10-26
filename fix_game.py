@@ -19,7 +19,7 @@ for round_num in range(1, rounds + 1):
         guess = int(input("Guess a number between 1 and 20: "))
         guesses = guesses + 1
 
-        if guess == secret_number: #<- Missed a :
+        if guess == secret_number#<--missed a :
             print(f"Correct! It took you {guesses} guesses.")
             found = True
         elif guess < secret_number:
@@ -30,7 +30,7 @@ for round_num in range(1, rounds + 1):
     scores.append(guesses)
 
 print("\n--- Game Over ---")
-print("Your guesses per round: " + scores)
+print("Your guesses per round: " , scores)#<--add , instead of +
 
 total = 0
 for score in scores:
@@ -38,7 +38,7 @@ for score in scores:
     total = total + score
 
 average = total / rounds
-print("Your guesses per round: " , scores)#<--add , instead of +
+print("Your average guesses per round was " + str(average))
 
 best_round = scores[0]
 for i in range(1, rounds): #<- was range(1, rounds - 1), missed the last element
