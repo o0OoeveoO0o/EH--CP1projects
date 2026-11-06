@@ -1,4 +1,4 @@
-#EH p1 ceasar cipher
+#EH p1 ceasar cipherr
 
 # PSEUDOCODE YABA DAB DOOOOO:
 # Ask the user if they want to encode or decode
