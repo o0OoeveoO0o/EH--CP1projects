@@ -24,9 +24,6 @@ Porkrind = {
     }
 
 }
-
-print("Welcome to Porkrind’s Emporium")
-buyMYSTUFF =input("What hability and 2 charms are you going to buy? ")
 print("Coins = " , coins)
 values = list(Porkrind.values())
 keys = list(Porkrind.keys())
@@ -34,5 +31,11 @@ keys = list(Porkrind.keys())
 for key in keys:
     print(f"{key} are {Porkrind[key]}")
 
+print("Welcome to Porkrind’s Emporium")
+Porkrindlist = list(values,keys)
+while True:
+    buyMYSTUFF =input("Do you want to buy? ")
 
-
+    if buyMYSTUFF == "yes":
+        
+        Porkrindlist.append
