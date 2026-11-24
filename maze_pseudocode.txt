@@ -1,0 +1,38 @@
+#EH Pseudocode maze generator
+
+GRID SKETCH:
+(describe or link your sketch here)
+101010000010010001001000001000010001
+100010001110011101001000111000100001
+FUNCTION setup_screen
+    # Job: create the screen and the drawing turtle
+    ...
+
+FUNCTION carve_path(grid)
+    # Job: mark a path from the top-left to the bottom-right
+    ...
+
+FUNCTION generate_maze
+    # Job: build the grid, carve the path, then fill in random walls
+    ...
+
+FUNCTION draw_square(pen, x, y, color)
+    # Job: draw one filled square
+    ...
+
+FUNCTION draw_maze(pen, grid)
+    # Job: draw every cell in the grid
+    ...
+
+FUNCTION main
+    # Job: put it all together
+    ...
+
+TRACE OF carve_path:
+Start: row 0, col 0
+Move 1: ...
+Move 2: ...
+(keep going until you reach the end)
+
+WHAT MY TRACE TAUGHT ME:
+(did you find a problem? what did you change?)
